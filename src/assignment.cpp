@@ -5,6 +5,9 @@ Robot::Robot(){
 	speed = 0;
 	distance = 0;
 }
+Robot::~Robot(){
+
+}
 
 void Robot::move(){
 	distance = time * speed;

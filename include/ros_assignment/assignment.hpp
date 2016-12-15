@@ -4,7 +4,8 @@
 
 class Robot {
 	public:
-		Robot();
+		Robot();	//コンストラクタ
+		~Robot();	//デストラクタ
 		double time;
 		double speed;
 		double distance;

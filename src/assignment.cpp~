@@ -1,6 +1,6 @@
 #include "ros_assignment/assignment.hpp"
 
-Robot::element(){
+Robot::Robot(){
 	time = 0;
 	speed = 0;
 	distance = 0;
